@@ -88,3 +88,29 @@ def my_function():
     print ("inside function", x)
 my_function()
 print ("outside function", x)
+
+"""
+
+-> The local x doesnt affect the global x
+-> To modify a variable inside a function use the global keyword
+-> For nested functions, nonlocal keyword
+"""
+
+def outer() :
+    x= 'outer'
+    def inner ():
+        nonlocal x
+        x = "inner"
+    inner()
+    print(x)
+outer() #output = inner
+
+"""
+-> Local variables are confined to their function and disappear after execution
+-> Global  variables are accessible everywhere but should be modified carefully to avoid confusion
+-> Use global to modfiy global variables inside functions, use nonlocal,for outer scope variables in nested functions
+-> avoid overusing global variables, as they can make code harder to debug and maintain, prefer using parameters and passing return values
+-> use parametersto make functions reusable and return values to communicate results
+-> be mindful of where variables are defined , use local variables for temporary data within functions and global variables sparingly for shared data
+-> IF A VARIABLE ISNT WORKING AS EXPECTED, CHECK ITS SCOPE(LOCAL) VS GLOBAL AND WETHER ITS BEING SHADOWED
+"""
