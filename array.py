@@ -92,4 +92,10 @@ my_list[1:3]
 -> It supports fewer operations than lists but its not optimized for basic array tasks
 """
 
-#
+# TYPE CODES
+"""
+'b' -> Signed char (1 byte)
+'i' -> Signed int (typically 4 bytes)
+'f' -> Float (4 bytes)
+'d' -> Double (8 bytes)
+"""
