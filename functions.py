@@ -6,7 +6,7 @@
 = Functions in python are defined using the def keyword and can take parameters.
 """
 def greet(name):
-    return f"Hello, {Vansh}!"
+    return (f"Hello, {Vansh}!")
 greet("Vansh")
 
 """
