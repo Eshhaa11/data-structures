@@ -60,3 +60,36 @@ my_list.pop() #removes last element in the array
 
 #SLICING
 my_list[1:3]
+
+#TRAVERSING THE ARRAY/ITERATION
+
+"""
+-> Traversing involves accessing each element of the array sequentially with a time complexity of 0(n)
+"""
+
+#CODE FOR TRANVERSING
+
+
+
+#SEARCHING ELEMENTS
+"""
+-> Searching the array can be done using linear search, or binary search(if the array is sorted)
+-> Time complexity: 0(n) for linear search, 0(log n) for binary search
+
+"""
+
+#Python array module
+"""
+->The array module provides a clear implementation to traditional arrays, enforcing a single data type and using less memory than lists
+-> Its used for scenarios requiring compact storage homogenous data like numerical processing
+"""
+
+#CHARACTERISTICS OF PYTHON ARRAY MODULE
+"""
+->Elements must be of specific type, defined using type codes.
+-> Arrays are not truly fixed but reuire manual resizing
+-> It stores raw data, not object references , making it memory efficient
+-> It supports fewer operations than lists but its not optimized for basic array tasks
+"""
+
+#
