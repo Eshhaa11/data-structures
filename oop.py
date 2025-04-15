@@ -88,7 +88,7 @@ dog2 = Dog("Bruno", 5)
 
 """
 Methods are functions defined in a class
-They typically take self as the first parameter to access
+They typically take self as the first parameter to access 
 """
 
 describe uses self access to
