@@ -39,3 +39,27 @@ this unless youre a subclass
 -> Private attributes/methods: indicated by double underscore (e.g self.__name) which triggers name mangling to prevent direct access outside the class
 -> Use getters and setters to access or modify attributes safely.
 """
+
+"""
+"""
+
+"""
+"""
+
+"""
+"""
+
+"""
+"""
+
+"""
+"""
+
+"""
+"""
+
+"""
+"""
+
+"""
+"""
