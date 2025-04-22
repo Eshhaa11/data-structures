@@ -15,5 +15,25 @@
 ambiguity
 -> Complexity: Multiple inheritance can make code hard to follow. Prefer composition using objects as attributes unless multiple inheritcance in clearly justified.
 -> Explicit super() usage: in complex hierachies, super() can behave unexpectedly unless you understand the MRO. Always check __MRO__ when debugging
+** WHY USE IT?
+  -> 1. Combines functionality from multiple classes (e.g A flying fish is both a flyer and a swimmer)
+     2. Useful in framworks like GUI (e.g widget inheriting from multiple component classes)
 
+"""
+#PROPERTY DECORATORS FOR ENHANCED ENCAPSULATION
+"""
+-> Property decorators allow you to define methods that act like attributes, providing a clean way to control access to instance data
+-> They enhance encapsulation by hiding implementation details while offering attribute like syntax
+**WHY USE THEM?
+-> Controlled Access: Vali
+"""
+
+"""
+"""
+
+
+"""
+"""
+
+"""
 """
