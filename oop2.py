@@ -39,8 +39,15 @@ this unless youre a subclass
 -> Private attributes/methods: indicated by double underscore (e.g self.__name) which triggers name mangling to prevent direct access outside the class
 -> Use getters and setters to access or modify attributes safely.
 """
+#ABSTRACTION
 
 """
+->Abstraction jides complex implementation details and exposes only the essentials features to the user
+->Its achieved using abstract classes or methods that define what a class should do without specifying how
+**How it works :
+  ->Use abc module to create abstract base classes (ABCs)
+  ->Define abstract methods with @abstractmethod that child classes must implement
+  ->You cant instantiate an abstract class directly
 """
 
 """
