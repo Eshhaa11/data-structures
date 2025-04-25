@@ -73,7 +73,7 @@ b) Class attributes: Shared across all objects of the class, defined directly in
 """
 class Dog:
     #Species attribute shared by all dogs
-    species = ""German Shepherd"
+    species = "German Shepherd"
     def __init__(self, name, age):
         self.name = name #instance attribute unique to each dog
         self.age = age
